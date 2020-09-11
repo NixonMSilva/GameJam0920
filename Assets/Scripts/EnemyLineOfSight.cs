@@ -23,4 +23,12 @@ public class EnemyLineOfSight : MonoBehaviour
             ec.PlayerOnLOS();
         }
     }
+
+    private void OnTriggerExit2D (Collider2D collision)
+    {
+        if(collision.gameObject.name.Equals("Player"))
+        {
+            ec.LeftLOS();
+        }
+    }
 }

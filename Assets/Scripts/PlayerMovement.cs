@@ -129,7 +129,8 @@ public class PlayerMovement : MonoBehaviour
         List<Collider2D> lc = new List<Collider2D>();
         if (col.OverlapCollider(cfTakedown, lc) > 0)
         {
-            ec = lc[0].gameObject.GetComponent<EnemyController>();
+            // Debug.Log("Takedown check!");
+            ec = lc[0].gameObject.GetComponentInParent<EnemyController>();
             if (ec != null)
             {
                 ec.Takedown();

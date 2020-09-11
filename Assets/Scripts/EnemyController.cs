@@ -5,7 +5,6 @@ using Pathfinding;
 
 public class EnemyController : MonoBehaviour
 {
-
     private bool isPlayerOnRange = false, hasSeenPlayer = false, isPlayerOccluded = false;
     private bool canAttack = true;
 
@@ -28,6 +27,8 @@ public class EnemyController : MonoBehaviour
 
     public AIDestinationSetter destinationSetter;
     private AIPath pathfinding;
+
+    public int enemyType;
 
     private void Awake ()
     {
@@ -54,7 +55,8 @@ public class EnemyController : MonoBehaviour
 
     private void FixedUpdate ()
     {
-        if (isPlayerOnRange)
+        // Type 1 enemy ignores sound
+        if (isPlayerOnRange && enemyType != 1)
         {
             if (playerMov.GetNoiseLevel() > 30f)
             {
@@ -69,14 +71,13 @@ public class EnemyController : MonoBehaviour
                     }
                     else
                     {
-                        LookAtPlayer();
                         ChasePlayer();
                         isPlayerOccluded = false;
                     }
                 }
                 else
                 {
-                    LookAtPlayer();
+                    
                     ChasePlayer();
                     isPlayerOccluded = false;
                 }
@@ -85,7 +86,6 @@ public class EnemyController : MonoBehaviour
         else
         {
             StopChasingPlayer();
-            ResetOrientation();
         }
 
         // Process of attacking the player
@@ -122,16 +122,17 @@ public class EnemyController : MonoBehaviour
 
     private void ChasePlayer ()
     {
+        LookAtPlayer();
         pathfinding.canSearch = true;
         hasSeenPlayer = true;
     }
 
     private void StopChasingPlayer ()
     {
-        Debug.Log("Here!");
         pathfinding.canSearch = false;
         hasSeenPlayer = false;
         rb.velocity = Vector3.zero;
+        ResetOrientation();
     }
 
     public void PlayerOnLOS ()
@@ -140,10 +141,25 @@ public class EnemyController : MonoBehaviour
         ChasePlayer();
     }
 
+    public void LeftLOS ()
+    {
+        if (enemyType == 1)
+        {
+            StopChasingPlayer();
+        }
+    }
+
     public void Takedown ()
     {
-        if (!hasSeenPlayer)
+        // Debug.Log("Takedown activated");
+        // Type 1 enemy = Immortal enemies
+        if (!hasSeenPlayer && enemyType != 1)
             Destroy(this.gameObject);
+    }
+
+    public int GetEnemyType ()
+    {
+        return enemyType;
     }
 
     public void SetPlayerOnRange (bool status)
@@ -154,7 +170,10 @@ public class EnemyController : MonoBehaviour
     private void AttackPlayer ()
     {
         canAttack = false;
-        playerMov.TakeDamage(Random.Range(15f, 25f));
+        if (enemyType == 1)
+            playerMov.TakeDamage(120f);
+        else
+            playerMov.TakeDamage(Random.Range(15f, 25f));
         StartCoroutine(AttackCooldown(2f));
     }
 
