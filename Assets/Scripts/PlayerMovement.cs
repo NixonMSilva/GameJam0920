@@ -8,7 +8,8 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Collider2D col;
 
-    public ContactFilter2D cf;
+    public ContactFilter2D cfClimb;
+    public ContactFilter2D cfTakedown;
 
     private float moveH, moveV;
     [SerializeField] private float moveSpeed = 2.0f;
@@ -20,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
 
     public GameObject ui_noiseLevelIndicator;
     public GameObject ui_healthLevelIndicator;
-    
+
 
     private void Awake ()
     {
@@ -29,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    private void Start()
+    private void Start ()
     {
         playerHealth = 100f;
     }
@@ -40,12 +41,16 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void Update()
+    private void Update ()
     {
         // Condition to avoid player health extrapolating the limits
         if (playerHealth > 100f)
             playerHealth = 100f;
-        
+
+        // Condition to kill the player if the health falls below 0
+        if (playerHealth < 0f)
+            Die();
+
         if (Input.GetKey(KeyCode.C))
         {
             isSneaking = true;
@@ -60,6 +65,11 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             ClimbCheck();
+        }
+        
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            TakedownCheck();
         }
 
         moveH = Input.GetAxisRaw("Horizontal") * moveSpeed;
@@ -93,7 +103,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void UpdateHealthBar ()
     {
-        Vector3 newBarSize = new Vector3((playerHealth / 100f), 1f, 1f);
+        Vector3 newBarSize = new Vector3(0f, 1f, 1f);
+        if (playerHealth > 0f)
+            newBarSize.x = playerHealth / 100f;
         ui_healthLevelIndicator.transform.localScale = newBarSize;
     }
 
@@ -101,7 +113,7 @@ public class PlayerMovement : MonoBehaviour
     {
         ClimbableTerrain ct;
         List<Collider2D> lc = new List<Collider2D>();
-        if (col.OverlapCollider(cf, lc) > 0)
+        if (col.OverlapCollider(cfClimb, lc) > 0)
         {
             ct = lc[0].gameObject.GetComponent<ClimbableTerrain>();
             if (ct != null)
@@ -111,8 +123,32 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private void TakedownCheck ()
+    {
+        EnemyController ec;
+        List<Collider2D> lc = new List<Collider2D>();
+        if (col.OverlapCollider(cfTakedown, lc) > 0)
+        {
+            ec = lc[0].gameObject.GetComponent<EnemyController>();
+            if (ec != null)
+            {
+                ec.Takedown();
+            }
+        }
+    }
+
     public float GetNoiseLevel ()
     {
         return noiseLevel;
+    }
+
+    public void TakeDamage (float damage)
+    {
+        playerHealth -= damage;
+    }
+
+    public void Die ()
+    {
+        Destroy(this.gameObject);
     }
 }

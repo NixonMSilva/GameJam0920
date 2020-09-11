@@ -7,6 +7,9 @@ public class EnemyController : MonoBehaviour
 {
 
     private bool isPlayerOnRange = false, hasSeenPlayer = false, isPlayerOccluded = false;
+    private bool canAttack = true;
+
+    public float attackRange = 0.44f;
 
     public GameObject player;
     public GameObject lineOfSight;
@@ -49,11 +52,8 @@ public class EnemyController : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    private void Update()
+    private void FixedUpdate ()
     {
-        los_rb.position = this.transform.position;
-
         if (isPlayerOnRange)
         {
             if (playerMov.GetNoiseLevel() > 30f)
@@ -85,36 +85,24 @@ public class EnemyController : MonoBehaviour
         else
         {
             StopChasingPlayer();
-            rb.velocity = Vector3.zero;
-        }
-    }
-
-    private void OnTriggerEnter2D (Collider2D other)
-    {
-        if (other.Equals(playerCol))
-        {
-            isPlayerOnRange = true;
-            // Debug.Log("Player entering detection range");
-        }
-    }
-
-    private void OnTriggerStay2D (Collider2D other)
-    {
-        /*
-        if (other.Equals(playerCol))
-            Debug.Log("Player on detection range");
-        */
-    }
-
-    private void OnTriggerExit2D (Collider2D other)
-    {
-        if (other.Equals(playerCol))
-        {
-            isPlayerOnRange = false;
             ResetOrientation();
-            // Debug.Log("Player leaving detection range");
         }
-            
+
+        // Process of attacking the player
+        if (hasSeenPlayer && canAttack)
+        {
+            if (Vector3.Distance(this.transform.position, player.transform.position) <= attackRange)
+            {
+                Debug.Log(Vector3.Distance(this.transform.position, player.transform.position));
+                AttackPlayer();
+            }
+        }
+    }
+
+    // Update is called once per frame
+    private void Update()
+    {
+        los_rb.position = this.transform.position;
     }
 
     private void LookAtPlayer ()
@@ -140,13 +128,39 @@ public class EnemyController : MonoBehaviour
 
     private void StopChasingPlayer ()
     {
+        Debug.Log("Here!");
         pathfinding.canSearch = false;
         hasSeenPlayer = false;
+        rb.velocity = Vector3.zero;
     }
 
     public void PlayerOnLOS ()
     {
         LookAtPlayer();
         ChasePlayer();
+    }
+
+    public void Takedown ()
+    {
+        if (!hasSeenPlayer)
+            Destroy(this.gameObject);
+    }
+
+    public void SetPlayerOnRange (bool status)
+    {
+        isPlayerOnRange = status;
+    }
+
+    private void AttackPlayer ()
+    {
+        canAttack = false;
+        playerMov.TakeDamage(Random.Range(15f, 25f));
+        StartCoroutine(AttackCooldown(2f));
+    }
+
+    IEnumerator AttackCooldown (float cooldown)
+    {
+        yield return new WaitForSeconds(cooldown);
+        canAttack = true;
     }
 }

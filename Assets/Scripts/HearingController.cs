@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyLineOfSight : MonoBehaviour
+public class HearingController : MonoBehaviour
 {
     public GameObject parent;
 
@@ -15,12 +15,17 @@ public class EnemyLineOfSight : MonoBehaviour
 
     private void OnTriggerEnter2D (Collider2D collision)
     {
-        // ec.PlayerOnLOS();
-        // Debug.Log(collision.gameObject.name);
         if (collision.gameObject.name.Equals("Player"))
         {
-            Debug.Log("Player on sight!");
-            ec.PlayerOnLOS();
+            ec.SetPlayerOnRange(true);
+        }
+    }
+
+    private void OnTriggerExit2D (Collider2D collision)
+    {
+        if (collision.gameObject.name.Equals("Player"))
+        {
+            ec.SetPlayerOnRange(false);
         }
     }
 }
