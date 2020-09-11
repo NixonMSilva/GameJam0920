@@ -1,0 +1,3076 @@
+fileFormatVersion: 2
+guid: 5edaa5381bbe6744e8923de7e02794e8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3819913479939036951
+    second: exterior_walls_0
+  - first:
+      213: 3314547104791771279
+    second: exterior_walls_1
+  - first:
+      213: -5350968871422575026
+    second: exterior_walls_2
+  - first:
+      213: -8716904887847036627
+    second: exterior_walls_3
+  - first:
+      213: -2204046203077657974
+    second: exterior_walls_4
+  - first:
+      213: -7187225043322016393
+    second: exterior_walls_5
+  - first:
+      213: -8655344364327839853
+    second: exterior_walls_6
+  - first:
+      213: -1600998677058233956
+    second: exterior_walls_7
+  - first:
+      213: -7479000666066322609
+    second: exterior_walls_8
+  - first:
+      213: 107242357812121400
+    second: exterior_walls_9
+  - first:
+      213: 6054166383334203851
+    second: exterior_walls_10
+  - first:
+      213: -8869877442665797528
+    second: exterior_walls_11
+  - first:
+      213: 992896806723691224
+    second: exterior_walls_12
+  - first:
+      213: 1181864908554895365
+    second: exterior_walls_13
+  - first:
+      213: -4588994270373245933
+    second: exterior_walls_14
+  - first:
+      213: -1007543814883011345
+    second: exterior_walls_15
+  - first:
+      213: 8006941560572749477
+    second: exterior_walls_16
+  - first:
+      213: 5610440534603043840
+    second: exterior_walls_17
+  - first:
+      213: -7469795999553644688
+    second: exterior_walls_18
+  - first:
+      213: -305860796609169624
+    second: exterior_walls_19
+  - first:
+      213: 8013558284560509769
+    second: exterior_walls_20
+  - first:
+      213: 7956547978028145273
+    second: exterior_walls_21
+  - first:
+      213: 6217666051266690535
+    second: exterior_walls_22
+  - first:
+      213: -6371443645261878535
+    second: exterior_walls_23
+  - first:
+      213: -6602567174758649836
+    second: exterior_walls_24
+  - first:
+      213: -4563289396872516538
+    second: exterior_walls_25
+  - first:
+      213: 1029361265810992956
+    second: exterior_walls_26
+  - first:
+      213: 334336461751235429
+    second: exterior_walls_27
+  - first:
+      213: -3822975304584766845
+    second: exterior_walls_28
+  - first:
+      213: -5872706668855803719
+    second: exterior_walls_29
+  - first:
+      213: -6858414321761020391
+    second: exterior_walls_30
+  - first:
+      213: 3586853449058204147
+    second: exterior_walls_31
+  - first:
+      213: -1129584905063384443
+    second: exterior_walls_32
+  - first:
+      213: 264652621168334676
+    second: exterior_walls_33
+  - first:
+      213: -6958259793819973758
+    second: exterior_walls_34
+  - first:
+      213: -293265123038554130
+    second: exterior_walls_35
+  - first:
+      213: 8276163103192513701
+    second: exterior_walls_36
+  - first:
+      213: -8868591858751828658
+    second: exterior_walls_37
+  - first:
+      213: 8138135138646490666
+    second: exterior_walls_38
+  - first:
+      213: -2289814311628882497
+    second: exterior_walls_39
+  - first:
+      213: 4905925877732235551
+    second: exterior_walls_40
+  - first:
+      213: 335109439318568194
+    second: exterior_walls_41
+  - first:
+      213: -1487595428993392146
+    second: exterior_walls_42
+  - first:
+      213: -1147741680640434092
+    second: exterior_walls_43
+  - first:
+      213: -2629244651189483442
+    second: exterior_walls_44
+  - first:
+      213: 4955460239430114905
+    second: exterior_walls_45
+  - first:
+      213: -4360691540537433582
+    second: exterior_walls_46
+  - first:
+      213: 8306899953860639022
+    second: exterior_walls_47
+  - first:
+      213: 688285903948778166
+    second: exterior_walls_48
+  - first:
+      213: -662432161220865326
+    second: exterior_walls_49
+  - first:
+      213: 671668609912450950
+    second: exterior_walls_50
+  - first:
+      213: -2341537880545049869
+    second: exterior_walls_51
+  - first:
+      213: 397519014985094428
+    second: exterior_walls_52
+  - first:
+      213: 8281700714565153314
+    second: exterior_walls_53
+  - first:
+      213: -2144314311400374528
+    second: exterior_walls_54
+  - first:
+      213: -3719880446453648632
+    second: exterior_walls_55
+  - first:
+      213: -6170212108290286345
+    second: exterior_walls_56
+  - first:
+      213: -3804786121095168740
+    second: exterior_walls_57
+  - first:
+      213: -9023486791486450971
+    second: exterior_walls_58
+  - first:
+      213: 1388049092345087638
+    second: exterior_walls_59
+  - first:
+      213: -7138338713224143750
+    second: exterior_walls_60
+  - first:
+      213: -7995516004053715598
+    second: exterior_walls_61
+  - first:
+      213: -184693986834347933
+    second: exterior_walls_62
+  - first:
+      213: -6925856277691697828
+    second: exterior_walls_63
+  - first:
+      213: -5723241019687482879
+    second: exterior_walls_64
+  - first:
+      213: -2921121237536763056
+    second: exterior_walls_65
+  - first:
+      213: -1482725317879815136
+    second: exterior_walls_66
+  - first:
+      213: 1950773062821745414
+    second: exterior_walls_67
+  - first:
+      213: -2153204582956461105
+    second: exterior_walls_68
+  - first:
+      213: 7554009429675977758
+    second: exterior_walls_69
+  - first:
+      213: -5287793117315995948
+    second: exterior_walls_70
+  - first:
+      213: -4955897071726596830
+    second: exterior_walls_71
+  - first:
+      213: 4285129622353436238
+    second: exterior_walls_72
+  - first:
+      213: 3581223992351156500
+    second: exterior_walls_73
+  - first:
+      213: -1904813668266589121
+    second: exterior_walls_74
+  - first:
+      213: -7744912877016029062
+    second: exterior_walls_75
+  - first:
+      213: 3859049270300307171
+    second: exterior_walls_76
+  - first:
+      213: -166179296294303377
+    second: exterior_walls_77
+  - first:
+      213: -6854602224295956650
+    second: exterior_walls_78
+  - first:
+      213: 4304846507853347772
+    second: exterior_walls_79
+  - first:
+      213: 1662357210894518418
+    second: exterior_walls_80
+  - first:
+      213: -2947632273048501180
+    second: exterior_walls_81
+  - first:
+      213: -7235115643351335594
+    second: exterior_walls_82
+  - first:
+      213: 5297055731734103175
+    second: exterior_walls_83
+  - first:
+      213: 5046659820155044607
+    second: exterior_walls_84
+  - first:
+      213: -5466933166773739517
+    second: exterior_walls_85
+  - first:
+      213: -6888028490062980048
+    second: exterior_walls_86
+  - first:
+      213: 4822507970348023410
+    second: exterior_walls_87
+  - first:
+      213: 9163522349673334647
+    second: exterior_walls_88
+  - first:
+      213: 9208791996967259367
+    second: exterior_walls_89
+  - first:
+      213: 8094224489481877736
+    second: exterior_walls_90
+  - first:
+      213: -300651362976595449
+    second: exterior_walls_91
+  - first:
+      213: 2816939804896837319
+    second: exterior_walls_92
+  - first:
+      213: -6768768947671059268
+    second: exterior_walls_93
+  - first:
+      213: 7983505742941388102
+    second: exterior_walls_94
+  - first:
+      213: 2417164676105736067
+    second: exterior_walls_95
+  - first:
+      213: 2692955074190060501
+    second: exterior_walls_96
+  - first:
+      213: -5666874887772561803
+    second: exterior_walls_97
+  - first:
+      213: -1393798883249248048
+    second: exterior_walls_98
+  - first:
+      213: -3956165560774550301
+    second: exterior_walls_99
+  - first:
+      213: 494065625041782258
+    second: exterior_walls_100
+  - first:
+      213: 6286924060063428842
+    second: exterior_walls_101
+  - first:
+      213: -7735291358592242452
+    second: exterior_walls_102
+  - first:
+      213: 334096711875178846
+    second: exterior_walls_103
+  - first:
+      213: -3518378437596329609
+    second: exterior_walls_104
+  - first:
+      213: 4835239828001558158
+    second: exterior_walls_105
+  - first:
+      213: -1867887218931433055
+    second: exterior_walls_106
+  - first:
+      213: -1889597084408365609
+    second: exterior_walls_107
+  - first:
+      213: -3320599282018979282
+    second: exterior_walls_108
+  - first:
+      213: 3845186024974387363
+    second: exterior_walls_109
+  - first:
+      213: 4145110746551680888
+    second: exterior_walls_0
+  - first:
+      213: 3902868420485196075
+    second: exterior_walls_1
+  - first:
+      213: 5305433349778690702
+    second: exterior_walls_2
+  - first:
+      213: -2853854397768991339
+    second: exterior_walls_3
+  - first:
+      213: -4517550564601799084
+    second: exterior_walls_4
+  - first:
+      213: -3355036092188187851
+    second: exterior_walls_5
+  - first:
+      213: 1026772340950513042
+    second: exterior_walls_6
+  - first:
+      213: 4770565942466015981
+    second: exterior_walls_7
+  - first:
+      213: 7942818985395982662
+    second: exterior_walls_8
+  - first:
+      213: -2148052653103484682
+    second: exterior_walls_9
+  - first:
+      213: 2720942340515775076
+    second: exterior_walls_10
+  - first:
+      213: -4084863865223767328
+    second: exterior_walls_11
+  - first:
+      213: -9015963967131405849
+    second: exterior_walls_12
+  - first:
+      213: -8110023577403124869
+    second: exterior_walls_13
+  - first:
+      213: 5669035290115378586
+    second: exterior_walls_14
+  - first:
+      213: -7616517935543999969
+    second: exterior_walls_15
+  - first:
+      213: 6481364947674608868
+    second: exterior_walls_16
+  - first:
+      213: -6905672711207531245
+    second: exterior_walls_17
+  - first:
+      213: -294099024687894926
+    second: exterior_walls_18
+  - first:
+      213: -5322654583924482019
+    second: exterior_walls_19
+  - first:
+      213: -2369576553404419744
+    second: exterior_walls_20
+  - first:
+      213: 7047665731970895934
+    second: exterior_walls_21
+  - first:
+      213: -8540799905599105490
+    second: exterior_walls_22
+  - first:
+      213: 6280019524468238693
+    second: exterior_walls_23
+  - first:
+      213: -807204995530613892
+    second: exterior_walls_24
+  - first:
+      213: -3399627521577163063
+    second: exterior_walls_25
+  - first:
+      213: 7753389660891094199
+    second: exterior_walls_26
+  - first:
+      213: -5522808016721225319
+    second: exterior_walls_27
+  - first:
+      213: 608017671862506494
+    second: exterior_walls_28
+  - first:
+      213: -5262192454749233873
+    second: exterior_walls_29
+  - first:
+      213: -8854996788106634156
+    second: exterior_walls_30
+  - first:
+      213: -412478692177410042
+    second: exterior_walls_31
+  - first:
+      213: 611890083469640434
+    second: exterior_walls_32
+  - first:
+      213: -6622662748663077728
+    second: exterior_walls_33
+  - first:
+      213: -2709109144720448045
+    second: exterior_walls_34
+  - first:
+      213: -4608547296627780654
+    second: exterior_walls_35
+  - first:
+      213: -2623720183463166858
+    second: exterior_walls_36
+  - first:
+      213: -1411835840360081999
+    second: exterior_walls_37
+  - first:
+      213: 7169691200624231493
+    second: exterior_walls_38
+  - first:
+      213: -9006475078923263651
+    second: exterior_walls_39
+  - first:
+      213: -8577792394475967399
+    second: exterior_walls_40
+  - first:
+      213: 2708897956636837213
+    second: exterior_walls_41
+  - first:
+      213: 3284112443742172486
+    second: exterior_walls_42
+  - first:
+      213: -8225574036318172893
+    second: exterior_walls_43
+  - first:
+      213: 5425881128018570563
+    second: exterior_walls_44
+  - first:
+      213: -8187506729803412111
+    second: exterior_walls_45
+  - first:
+      213: -155459749483220012
+    second: exterior_walls_46
+  - first:
+      213: -926185433965229749
+    second: exterior_walls_47
+  - first:
+      213: 6474901689330534560
+    second: exterior_walls_48
+  - first:
+      213: -826428166499561363
+    second: exterior_walls_49
+  - first:
+      213: -4424386671530455445
+    second: exterior_walls_50
+  - first:
+      213: 913168834797398818
+    second: exterior_walls_51
+  - first:
+      213: 8198164160729396565
+    second: exterior_walls_52
+  - first:
+      213: -4044181218161316518
+    second: exterior_walls_53
+  - first:
+      213: 3348687179360200935
+    second: exterior_walls_54
+  - first:
+      213: 676119392529070173
+    second: exterior_walls_55
+  - first:
+      213: 6925974932932116805
+    second: exterior_walls_56
+  - first:
+      213: -2065047235399065088
+    second: exterior_walls_57
+  - first:
+      213: -2665507279226883275
+    second: exterior_walls_58
+  - first:
+      213: 375158443857511730
+    second: exterior_walls_59
+  - first:
+      213: 6100026143346346101
+    second: exterior_walls_60
+  - first:
+      213: -7226390421699192694
+    second: exterior_walls_61
+  - first:
+      213: -858487182952766293
+    second: exterior_walls_62
+  - first:
+      213: 2367201497943913669
+    second: exterior_walls_63
+  - first:
+      213: 5203517154890830745
+    second: exterior_walls_64
+  - first:
+      213: 3326406172137920423
+    second: exterior_walls_65
+  - first:
+      213: 3178112929771074278
+    second: exterior_walls_66
+  - first:
+      213: 1519311805512105305
+    second: exterior_walls_67
+  - first:
+      213: 8446956908032923167
+    second: exterior_walls_68
+  - first:
+      213: -2402889806201081183
+    second: exterior_walls_69
+  - first:
+      213: 6350931206253120099
+    second: exterior_walls_70
+  - first:
+      213: -8219991878434886124
+    second: exterior_walls_71
+  - first:
+      213: 6139639839402916269
+    second: exterior_walls_72
+  - first:
+      213: 2002840585808020695
+    second: exterior_walls_73
+  - first:
+      213: -1659644279913037603
+    second: exterior_walls_74
+  - first:
+      213: 7854635959229447711
+    second: exterior_walls_75
+  - first:
+      213: 1005740298361644553
+    second: exterior_walls_76
+  - first:
+      213: -6979413956811322356
+    second: exterior_walls_77
+  - first:
+      213: 8230706007521828536
+    second: exterior_walls_78
+  - first:
+      213: 5134260683284577662
+    second: exterior_walls_79
+  - first:
+      213: -1282171687814057085
+    second: exterior_walls_80
+  - first:
+      213: -5491128250738850697
+    second: exterior_walls_81
+  - first:
+      213: -2244354181563301858
+    second: exterior_walls_82
+  - first:
+      213: -1156957333163084070
+    second: exterior_walls_83
+  - first:
+      213: 2563429929062385241
+    second: exterior_walls_84
+  - first:
+      213: -149453735186222534
+    second: exterior_walls_85
+  - first:
+      213: -2984232932217244689
+    second: exterior_walls_86
+  - first:
+      213: 748582367860122630
+    second: exterior_walls_87
+  - first:
+      213: -7578197619546215427
+    second: exterior_walls_88
+  - first:
+      213: 8997496814704383182
+    second: exterior_walls_89
+  - first:
+      213: -844879241676549761
+    second: exterior_walls_90
+  - first:
+      213: -7398317324035461672
+    second: exterior_walls_91
+  - first:
+      213: -4410208029475171275
+    second: exterior_walls_92
+  - first:
+      213: -7579337847870533380
+    second: exterior_walls_93
+  - first:
+      213: 435856774238695384
+    second: exterior_walls_94
+  - first:
+      213: -5366137210756147423
+    second: exterior_walls_95
+  - first:
+      213: 8175833682317128119
+    second: exterior_walls_96
+  - first:
+      213: -1583768659398495553
+    second: exterior_walls_97
+  - first:
+      213: -6846673074133775725
+    second: exterior_walls_98
+  - first:
+      213: -7569044177888461455
+    second: exterior_walls_99
+  - first:
+      213: 8177456215177500590
+    second: exterior_walls_100
+  - first:
+      213: 398283363503541499
+    second: exterior_walls_101
+  - first:
+      213: -7621886638028250700
+    second: exterior_walls_102
+  - first:
+      213: -5765680388758221536
+    second: exterior_walls_103
+  - first:
+      213: -3966624185236347199
+    second: exterior_walls_104
+  - first:
+      213: 5153301844766912971
+    second: exterior_walls_105
+  - first:
+      213: 8078957936504670091
+    second: exterior_walls_106
+  - first:
+      213: -5711645827713152209
+    second: exterior_walls_107
+  - first:
+      213: -2984969472353107020
+    second: exterior_walls_108
+  - first:
+      213: -1802653914440328769
+    second: exterior_walls_109
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: exterior_walls_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ffdd22344668930800000000000000
+      internalID: 4145110746551680888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b292c107626c92630800000000000000
+      internalID: 3902868420485196075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82d111b58fa0a940800000000000000
+      internalID: 5305433349778690702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dfa4cab821568d0800000000000000
+      internalID: -2853854397768991339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e5b0e42bf6e41c0800000000000000
+      internalID: -4517550564601799084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_5
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533228c23748071d0800000000000000
+      internalID: -3355036092188187851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_6
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2953d870104df3e00800000000000000
+      internalID: 1026772340950513042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_7
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2734af274743240800000000000000
+      internalID: 4770565942466015981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64191cbc8cf8a3e60800000000000000
+      internalID: 7942818985395982662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_9
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f07eec2e759032e0800000000000000
+      internalID: -2148052653103484682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_10
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46243cc74aab2c520800000000000000
+      internalID: 2720942340515775076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea128505f5af47c0800000000000000
+      internalID: -4084863865223767328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1396f5a8cd0e280800000000000000
+      internalID: -9015963967131405849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_13
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 160
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7318dc6688637f80800000000000000
+      internalID: -8110023577403124869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_14
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d0b7e7f857cae40800000000000000
+      internalID: 5669035290115378586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_15
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 160
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12228aaa41bc4690800000000000000
+      internalID: -7616517935543999969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_16
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e430d5841f62f950800000000000000
+      internalID: 6481364947674608868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_17
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 160
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31dcd59c14f1a20a0800000000000000
+      internalID: -6905672711207531245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_18
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e60b8ce762bebf0800000000000000
+      internalID: -294099024687894926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_19
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 160
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10a3174bd12226b0800000000000000
+      internalID: -5322654583924482019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_20
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0613c32eda29d1fd0800000000000000
+      internalID: -2369576553404419744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3091d1a4a65ec160800000000000000
+      internalID: 7047665731970895934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e265319acbbf87980800000000000000
+      internalID: -8540799905599105490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_23
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 128
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569627a0c7c172750800000000000000
+      internalID: 6280019524468238693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_24
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b1a74555b3cc4f0800000000000000
+      internalID: -807204995530613892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_25
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 128
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c660c7f7c812d0d0800000000000000
+      internalID: -3399627521577163063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc999e31d2999b60800000000000000
+      internalID: 7753389660891094199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_27
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 128
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999d6a0be5b0b53b0800000000000000
+      internalID: -5522808016721225319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_28
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef35684e9dc107800800000000000000
+      internalID: 608017671862506494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_29
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 128
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d5eeab7dfe8f6b0800000000000000
+      internalID: -5262192454749233873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cdda5465bbc1580800000000000000
+      internalID: -8854996788106634156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_31
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608095b90d4964af0800000000000000
+      internalID: -412478692177410042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_32
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2cacaf9cedd7800800000000000000
+      internalID: 611890083469640434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_33
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4a9b681539714a0800000000000000
+      internalID: -6622662748663077728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5ec2b169f476ad0800000000000000
+      internalID: -2709109144720448045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_35
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d31aed96a62b00c0800000000000000
+      internalID: -4608547296627780654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_36
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cb7aae46ca69bd0800000000000000
+      internalID: -2623720183463166858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_37
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b51c2e88c6286ce0800000000000000
+      internalID: -1411835840360081999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544837a092cdf7360800000000000000
+      internalID: 7169691200624231493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_39
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51ee5252a2920380800000000000000
+      internalID: -9006475078923263651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_40
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c663aa34f85f880800000000000000
+      internalID: -8577792394475967399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_41
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55ce16d650f79520800000000000000
+      internalID: 2708897956636837213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64531bb1ed2839d20800000000000000
+      internalID: 3284112443742172486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_43
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3294493bef3e8dd80800000000000000
+      internalID: -8225574036318172893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_44
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34dea0d632a9c4b40800000000000000
+      internalID: 5425881128018570563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_45
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d82fd2202206e80800000000000000
+      internalID: -8187506729803412111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d37e277e22b7ddf0800000000000000
+      internalID: -155459749483220012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_47
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b498c5441478523f0800000000000000
+      internalID: -926185433965229749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_48
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a88f1ce7c87bd950800000000000000
+      internalID: 6474901689330534560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_49
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d609a6f06ffe784f0800000000000000
+      internalID: -826428166499561363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e447e73cb6992c0800000000000000
+      internalID: -4424386671530455445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_51
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b6e02973a3cac00800000000000000
+      internalID: 913168834797398818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5553d925edab5c170800000000000000
+      internalID: 8198164160729396565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_53
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d203ceb9e20e7c0800000000000000
+      internalID: -4044181218161316518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e86bad5f3de87e20800000000000000
+      internalID: 3348687179360200935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_55
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58b279510f026900800000000000000
+      internalID: 676119392529070173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_56
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541cda091810e1060800000000000000
+      internalID: 6925974932932116805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_57
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002e2a10b7a7753e0800000000000000
+      internalID: -2065047235399065088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_58
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533b6738047320bd0800000000000000
+      internalID: -2665507279226883275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_59
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2358d94fd94d43500800000000000000
+      internalID: 375158443857511730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_60
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57841c24575a7a450800000000000000
+      internalID: 6100026143346346101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_61
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a889552d234b6bb90800000000000000
+      internalID: -7226390421699192694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_62
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4efdf947a0614f0800000000000000
+      internalID: -858487182952766293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_63
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 64
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c438bc683df9d020800000000000000
+      internalID: 2367201497943913669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_64
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9935bef684b963840800000000000000
+      internalID: 5203517154890830745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_65
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 64
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a792fc1ac4c92e20800000000000000
+      internalID: 3326406172137920423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_66
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2b41b0fdcea1c20800000000000000
+      internalID: 3178112929771074278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_67
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 64
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d3b96990ea51510800000000000000
+      internalID: 1519311805512105305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_68
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f169550dd8e993570800000000000000
+      internalID: 8446956908032923167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_69
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 64
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a23afac37837aed0800000000000000
+      internalID: -2402889806201081183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a09ad884a032850800000000000000
+      internalID: 6350931206253120099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_71
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41eea4d10f8bced80800000000000000
+      internalID: -8219991878434886124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_72
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9727c97e1643550800000000000000
+      internalID: 6139639839402916269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_73
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d482dab6e48bcb10800000000000000
+      internalID: 2002840585808020695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_74
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd046421252c7f8e0800000000000000
+      internalID: -1659644279913037603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_75
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e71ed0ac5410d60800000000000000
+      internalID: 7854635959229447711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_76
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9062424097b15fd00800000000000000
+      internalID: 1005740298361644553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_77
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c8bdb1cf3242f90800000000000000
+      internalID: -6979413956811322356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_78
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be13057187593270800000000000000
+      internalID: 8230706007521828536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_79
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d7e6393ee804740800000000000000
+      internalID: 5134260683284577662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_80
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383b7c6a4afc43ee0800000000000000
+      internalID: -1282171687814057085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_81
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774499ef2f79bc3b0800000000000000
+      internalID: -5491128250738850697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_82
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10c1c153c37ad0e0800000000000000
+      internalID: -2244354181563301858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_83
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6f7807f69a1ffe0800000000000000
+      internalID: -1156957333163084070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_84
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9564e5850f1239320800000000000000
+      internalID: 2563429929062385241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_85
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32bed3ae980dedf0800000000000000
+      internalID: -149453735186222534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_86
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe33b2495ffd596d0800000000000000
+      internalID: -2984232932217244689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_87
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 32
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6046c6982bf736a00800000000000000
+      internalID: 748582367860122630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_88
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbac318a65d4d690800000000000000
+      internalID: -7578197619546215427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_89
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 32
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4d924aea78ddc70800000000000000
+      internalID: 8997496814704383182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_90
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7194c95ec26644f0800000000000000
+      internalID: -844879241676549761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_91
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 32
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd6f3d7795e35990800000000000000
+      internalID: -7398317324035461672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5349e89d92bcbc2c0800000000000000
+      internalID: -4410208029475171275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_93
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0d0096268c0d690800000000000000
+      internalID: -7579337847870533380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_94
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfe1794d697c0600800000000000000
+      internalID: 435856774238695384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_95
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127dfd843a6a785b0800000000000000
+      internalID: -5366137210756147423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_96
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1bf29aa65667170800000000000000
+      internalID: 8175833682317128119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_97
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2f722abc2550ae0800000000000000
+      internalID: -1583768659398495553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_98
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a46034d1bbbf0a0800000000000000
+      internalID: -6846673074133775725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_99
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d38b73c6a55f690800000000000000
+      internalID: -7569044177888461455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_100
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea717f70a192c7170800000000000000
+      internalID: 8177456215177500590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_101
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc8391eb9cf68500800000000000000
+      internalID: 398283363503541499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_102
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1a7063c7e993690800000000000000
+      internalID: -7621886638028250700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_103
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d41abfb303cffa0800000000000000
+      internalID: -5765680388758221536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_104
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6a381d158b3f8c0800000000000000
+      internalID: -3966624185236347199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_105
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc172b579b4348740800000000000000
+      internalID: 5153301844766912971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_106
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b870fa860793e1070800000000000000
+      internalID: 8078957936504670091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_107
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bc05c91682cb0b0800000000000000
+      internalID: -5711645827713152209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_108
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3020774124396d0800000000000000
+      internalID: -2984969472353107020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exterior_walls_109
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 16
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb911d0d0dfabf6e0800000000000000
+      internalID: -1802653914440328769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

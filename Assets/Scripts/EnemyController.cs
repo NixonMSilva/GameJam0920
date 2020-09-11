@@ -141,7 +141,6 @@ public class EnemyController : MonoBehaviour
 
     public void PlayerOnLOS ()
     {
-        LookAtPlayer();
         ChasePlayer();
     }
 
@@ -185,5 +184,10 @@ public class EnemyController : MonoBehaviour
     {
         yield return new WaitForSeconds(cooldown);
         canAttack = true;
+    }
+
+    public bool GetChaseStatus ()
+    {
+        return hasSeenPlayer;
     }
 }

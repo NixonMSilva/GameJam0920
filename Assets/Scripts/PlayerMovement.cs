@@ -28,6 +28,9 @@ public class PlayerMovement : MonoBehaviour
 
     public GameObject ui_messageBox;
 
+    public GameObject ui_takedownTip;
+    public GameObject ui_retryPanel;
+
     private MessageController messageController;
 
     AudioManager audioMgr;
@@ -40,6 +43,8 @@ public class PlayerMovement : MonoBehaviour
         messageController = ui_messageBox.GetComponent<MessageController>();
 
         audioMgr = GameObject.Find("AudioManager").GetComponent<AudioManager>();
+
+        ui_retryPanel.SetActive(false);
     }
 
     // Start is called before the first frame update
@@ -121,6 +126,7 @@ public class PlayerMovement : MonoBehaviour
 
         UpdateNoiseBar();
         UpdateHealthBar();
+        TakedownTip();
     }
 
     private void UpdateNoiseBar ()
@@ -151,14 +157,45 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void TakedownCheck ()
+    private void TakedownTip ()
     {
-        EnemyController ec;
         List<Collider2D> lc = new List<Collider2D>();
         if (col.OverlapCollider(cfTakedown, lc) > 0)
         {
-            // Debug.Log("Takedown check!");
-            ec = lc[0].gameObject.GetComponentInParent<EnemyController>();
+            foreach (Collider2D spot in lc)
+            {
+                if (spot != null && spot.CompareTag("takedown"))
+                {
+                    Debug.Log(spot.GetComponentInParent<EnemyController>().GetChaseStatus());
+                    if (!spot.GetComponentInParent<EnemyController>().GetChaseStatus())
+                        ui_takedownTip.SetActive(true);
+                }
+                else
+                {
+                    ui_takedownTip.SetActive(false);
+                }
+            }
+        }
+        else
+        {
+            ui_takedownTip.SetActive(false);
+        }
+    }
+
+    private void TakedownCheck ()
+    {
+        EnemyController ec = null;
+        List<Collider2D> lc = new List<Collider2D>();
+        if (col.OverlapCollider(cfTakedown, lc) > 0)
+        {
+            foreach (Collider2D spot in lc)
+            {
+                if (spot != null && spot.CompareTag("takedown"))
+                {
+                    ec = spot.gameObject.GetComponentInParent<EnemyController>();
+                    break;
+                }
+            }
             if (ec != null)
             {
                 ec.Takedown();
@@ -179,5 +216,12 @@ public class PlayerMovement : MonoBehaviour
     public void Die ()
     {
         Destroy(this.gameObject);
+        ui_retryPanel.SetActive(true);
+        Time.timeScale = 0f;
+    }
+
+    public void AddHealth (float amount)
+    {
+        playerHealth += amount;
     }
 }
