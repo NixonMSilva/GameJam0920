@@ -30,6 +30,8 @@ public class EnemyController : MonoBehaviour
 
     public int enemyType;
 
+    AudioManager audioMgr;
+
     private void Awake ()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -45,6 +47,8 @@ public class EnemyController : MonoBehaviour
         destinationSetter.target = player.transform;
 
         pathfinding = GetComponent<AIPath>();
+
+        audioMgr = GameObject.Find("AudioManager").GetComponent<AudioManager>();
     }
 
     // Start is called before the first frame update

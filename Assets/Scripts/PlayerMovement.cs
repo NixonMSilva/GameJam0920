@@ -16,17 +16,30 @@ public class PlayerMovement : MonoBehaviour
 
     public bool isSneaking = false;
 
+    public bool canMove = true;
+
+    private bool isMessageActive = false;
+
     public float noiseLevel = 0f;
     public float playerHealth = 100f;
 
     public GameObject ui_noiseLevelIndicator;
     public GameObject ui_healthLevelIndicator;
 
+    public GameObject ui_messageBox;
+
+    private MessageController messageController;
+
+    AudioManager audioMgr;
 
     private void Awake ()
     {
         rb = GetComponent<Rigidbody2D>();
         col = GetComponent<CircleCollider2D>();
+
+        messageController = ui_messageBox.GetComponent<MessageController>();
+
+        audioMgr = GameObject.Find("AudioManager").GetComponent<AudioManager>();
     }
 
     // Start is called before the first frame update
@@ -71,6 +84,21 @@ public class PlayerMovement : MonoBehaviour
         {
             TakedownCheck();
         }
+                
+        /*
+        if (Input.GetKeyDown(KeyCode.KeypadEnter))
+        {
+            if (isMessageActive)
+            {
+                messageController.HideMessageBox();
+                isMessageActive = false;
+            }
+            else
+            {
+                messageController.ShowMessageBox();
+                isMessageActive = true;
+            }
+        } */
 
         moveH = Input.GetAxisRaw("Horizontal") * moveSpeed;
         moveV = Input.GetAxisRaw("Vertical") * moveSpeed;
