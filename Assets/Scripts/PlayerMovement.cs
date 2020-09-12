@@ -51,6 +51,7 @@ public class PlayerMovement : MonoBehaviour
     private void Start ()
     {
         playerHealth = 100f;
+        messageController.HideMessageBox();
     }
 
     private void FixedUpdate ()
@@ -66,7 +67,7 @@ public class PlayerMovement : MonoBehaviour
             playerHealth = 100f;
 
         // Condition to kill the player if the health falls below 0
-        if (playerHealth < 0f)
+        if (playerHealth <= 0f)
             Die();
 
         if (Input.GetKey(KeyCode.C))
@@ -163,7 +164,7 @@ public class PlayerMovement : MonoBehaviour
         bool enemyFound = false;
         if (col.OverlapCollider(cfTakedown, lc) > 0)
         {
-            Debug.Log(lc.Count);
+            //Debug.Log(lc.Count);
             foreach (Collider2D spot in lc)
             {
                 if (spot != null && spot.CompareTag("takedown"))

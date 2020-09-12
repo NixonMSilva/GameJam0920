@@ -63,18 +63,26 @@ public class EnemyController : MonoBehaviour
     private void FixedUpdate ()
     {
         // Type 1 enemy ignores sound
-        if (isPlayerOnRange && enemyType != 1)
+        if (enemyType != 1)
         {
-            if (playerMov.GetNoiseLevel() > 30f)
+            if (isPlayerOnRange)
             {
-                RaycastHit2D rc = Physics2D.Raycast(this.transform.position, player.transform.position, Mathf.Infinity, opaqueObjects);
-                if (rc.collider != null)
+                if (playerMov.GetNoiseLevel() > 30f)
                 {
-                    float distanceToPlayer = Vector2.Distance(this.transform.position, player.transform.position);
-                    float distanceToOccluder = Vector2.Distance(this.transform.position, rc.transform.position);
-                    if (distanceToOccluder < distanceToPlayer)
+                    RaycastHit2D rc = Physics2D.Raycast(this.transform.position, player.transform.position, Mathf.Infinity, opaqueObjects);
+                    if (rc.collider != null)
                     {
-                        isPlayerOccluded = true;
+                        float distanceToPlayer = Vector2.Distance(this.transform.position, player.transform.position);
+                        float distanceToOccluder = Vector2.Distance(this.transform.position, rc.transform.position);
+                        if (distanceToOccluder < distanceToPlayer)
+                        {
+                            isPlayerOccluded = true;
+                        }
+                        else
+                        {
+                            ChasePlayer();
+                            isPlayerOccluded = false;
+                        }
                     }
                     else
                     {
@@ -82,21 +90,25 @@ public class EnemyController : MonoBehaviour
                         isPlayerOccluded = false;
                     }
                 }
-                else
+                else if (hasSeenPlayer)
                 {
-                    ChasePlayer();
-                    isPlayerOccluded = false;
+
+                    LookAtPlayer();
                 }
             }
+            else
+            {
+                StopChasingPlayer();
+            }
         }
-        else
-        {
-            StopChasingPlayer();
-        }
+        
 
+        Debug.Log(gameObject.name + " has seen player? " + hasSeenPlayer);
+        Debug.Log(gameObject.name + " can attack? " + canAttack);
         // Process of attacking the player
         if (hasSeenPlayer && canAttack)
         {
+            Debug.Log("Attack attempt!");
             if (Vector3.Distance(this.transform.position, player.transform.position) <= attackRange)
             {
                 Debug.Log(Vector3.Distance(this.transform.position, player.transform.position));
@@ -108,7 +120,11 @@ public class EnemyController : MonoBehaviour
 
         if (!hasSeenPlayer)
         {
-            if (patrol.hasPatrolPath && patrol.noOfNodes > 0)
+            if (enemyType == 1)
+            {
+                ReturnToBase();
+            }
+            else if (patrol.hasPatrolPath && patrol.noOfNodes > 0)
                 SeekNextNode();
         }
     }
@@ -161,12 +177,12 @@ public class EnemyController : MonoBehaviour
     
     private void SeekNextNode ()
     {
-        Debug.Log(patrol.noOfNodes);
+        //Debug.Log(patrol.noOfNodes);
         Transform nextNode = patrol.patrolNodes[patrol.currIndex].transform;
         LookAtPath(nextNode.position);
         pathfinding.canSearch = true;
         destinationSetter.target = nextNode;
-        Debug.Log(destinationSetter.target.gameObject.name);
+        //Debug.Log(destinationSetter.target.gameObject.name);
         if (Vector3.Distance(gameObject.transform.position, nextNode.position) < 0.2f)
         {
             if (patrol.currIndex < (patrol.noOfNodes - 1))
@@ -211,11 +227,26 @@ public class EnemyController : MonoBehaviour
     private void AttackPlayer ()
     {
         canAttack = false;
+        Debug.Log("Attack");
         if (enemyType == 1)
-            playerMov.TakeDamage(120f);
+            playerMov.TakeDamage(100f);
         else
             playerMov.TakeDamage(Random.Range(15f, 25f));
         StartCoroutine(AttackCooldown(2f));
+    }
+
+    private void ReturnToBase ()
+    {
+        if (Vector2.Distance(this.transform.position, patrol.patrolNodes[0].transform.position) < 0.05f)
+        {
+            destinationSetter.target = patrol.patrolNodes[0].transform;
+            pathfinding.canSearch = true;
+        }
+        else
+        {
+            pathfinding.canSearch = false;
+        }
+
     }
 
     IEnumerator AttackCooldown (float cooldown)

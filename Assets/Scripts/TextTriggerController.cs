@@ -8,26 +8,47 @@ public class TextTriggerController : MonoBehaviour
     public GameObject player;
     public GameObject messageBox;
 
+    public GameObject followUpMessage;
+
+    [TextArea]
     public string textToShow = "";
 
-    private MessageController messageController;
+    [HideInInspector]
+    public MessageController messageController;
+
+    public bool canDestroy = true;
 
     private void Start ()
     {
         messageController = messageBox.GetComponent<MessageController>();
-        if (messageController != null)
-            Debug.Log(messageController.gameObject.name);
     }
 
     private void OnTriggerEnter2D (Collider2D collision)
     {
         if (collision.name.Equals("Player"))
         {
-            messageController.SetText(textToShow);
-            messageController.ShowMessageBox();
-            Destroy(this);
+            ShowMessage();
         }
-        
     }
 
+    private void ShowMessage ()
+    {
+        messageController.SetText(textToShow);
+        messageController.ShowMessageBox();
+
+        if (followUpMessage != null)
+        {
+            followUpMessage.SetActive(true);
+        }
+
+        if (canDestroy)
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
+    public void ShowMessageP ()
+    {
+        ShowMessage();
+    }
 }
