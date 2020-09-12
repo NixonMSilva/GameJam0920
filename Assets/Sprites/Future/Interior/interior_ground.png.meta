@@ -1,0 +1,1462 @@
+fileFormatVersion: 2
+guid: 514d15e6f79237545bee8d49c81fa078
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4342718006460030795
+    second: interior_ground_0
+  - first:
+      213: -2971652789176141561
+    second: interior_ground_1
+  - first:
+      213: -533270864345691683
+    second: interior_ground_2
+  - first:
+      213: -8560824740425878426
+    second: interior_ground_3
+  - first:
+      213: 1435481370633121169
+    second: interior_ground_4
+  - first:
+      213: -3739283713388924216
+    second: interior_ground_5
+  - first:
+      213: -6675575569442585620
+    second: interior_ground_6
+  - first:
+      213: -5453277683693215566
+    second: interior_ground_7
+  - first:
+      213: 7478365386251472670
+    second: interior_ground_8
+  - first:
+      213: -2931119111393909595
+    second: interior_ground_9
+  - first:
+      213: -7439612797523069117
+    second: interior_ground_10
+  - first:
+      213: 4235041717880741102
+    second: interior_ground_11
+  - first:
+      213: 2948826787243692996
+    second: interior_ground_12
+  - first:
+      213: -4101321175027236257
+    second: interior_ground_13
+  - first:
+      213: -4650942675615679327
+    second: interior_ground_14
+  - first:
+      213: -440599623337574441
+    second: interior_ground_15
+  - first:
+      213: -1575508663103443138
+    second: interior_ground_16
+  - first:
+      213: 3957393006232990991
+    second: interior_ground_17
+  - first:
+      213: -6057796974581197528
+    second: interior_ground_18
+  - first:
+      213: 6096287382504228548
+    second: interior_ground_19
+  - first:
+      213: -1350938344458500730
+    second: interior_ground_20
+  - first:
+      213: -8519400831530983866
+    second: interior_ground_21
+  - first:
+      213: -7239454511799088718
+    second: interior_ground_22
+  - first:
+      213: -789834983268483952
+    second: interior_ground_23
+  - first:
+      213: 6614575855707354977
+    second: interior_ground_24
+  - first:
+      213: 7074922055452273830
+    second: interior_ground_25
+  - first:
+      213: -6188254036373390145
+    second: interior_ground_26
+  - first:
+      213: 739130565945128171
+    second: interior_ground_27
+  - first:
+      213: 8426814226619254627
+    second: interior_ground_28
+  - first:
+      213: 6320717950444359616
+    second: interior_ground_29
+  - first:
+      213: -1072633253517265945
+    second: interior_ground_30
+  - first:
+      213: 6667267775430199771
+    second: interior_ground_31
+  - first:
+      213: 5348544350080912685
+    second: interior_ground_32
+  - first:
+      213: 348694928771886309
+    second: interior_ground_33
+  - first:
+      213: 6910741321221220993
+    second: interior_ground_34
+  - first:
+      213: 3336791970336705104
+    second: interior_ground_35
+  - first:
+      213: 8020836732889524401
+    second: interior_ground_36
+  - first:
+      213: -9072618823648071876
+    second: interior_ground_37
+  - first:
+      213: 5004805790308755766
+    second: interior_ground_38
+  - first:
+      213: -571595292088948931
+    second: interior_ground_39
+  - first:
+      213: 9187623191028248427
+    second: interior_ground_40
+  - first:
+      213: -8210970505199272043
+    second: interior_ground_41
+  - first:
+      213: 5674345962097444770
+    second: interior_ground_42
+  - first:
+      213: -8042951489930348658
+    second: interior_ground_43
+  - first:
+      213: 420179406554703446
+    second: interior_ground_44
+  - first:
+      213: 7648675233444294597
+    second: interior_ground_45
+  - first:
+      213: 7832861369406347400
+    second: interior_ground_46
+  - first:
+      213: -2839615295002139727
+    second: interior_ground_47
+  - first:
+      213: 3129308414885306696
+    second: interior_ground_48
+  - first:
+      213: 3231222119646085842
+    second: interior_ground_49
+  - first:
+      213: -886694661013027925
+    second: interior_ground_50
+  - first:
+      213: -1634346916232484710
+    second: interior_ground_51
+  - first:
+      213: -7957422407785444260
+    second: interior_ground_52
+  - first:
+      213: 6766354811269281347
+    second: interior_ground_53
+  - first:
+      213: 151838345158522975
+    second: interior_ground_54
+  - first:
+      213: -5307127208250937015
+    second: interior_ground_55
+  - first:
+      213: -4672986298781874795
+    second: interior_ground_0
+  - first:
+      213: 8793275817097811989
+    second: interior_ground_1
+  - first:
+      213: -3617737048949956142
+    second: interior_ground_2
+  - first:
+      213: 4014725333097187143
+    second: interior_ground_3
+  - first:
+      213: 5704429290623756366
+    second: interior_ground_4
+  - first:
+      213: 5131886050267649590
+    second: interior_ground_5
+  - first:
+      213: -4274225995109874576
+    second: interior_ground_6
+  - first:
+      213: 4739625451109329960
+    second: interior_ground_7
+  - first:
+      213: 676004043464122861
+    second: interior_ground_8
+  - first:
+      213: 4149390347042113930
+    second: interior_ground_9
+  - first:
+      213: -5866176633914119092
+    second: interior_ground_10
+  - first:
+      213: -3052599872224395604
+    second: interior_ground_11
+  - first:
+      213: -1779998233964039749
+    second: interior_ground_12
+  - first:
+      213: 9181674291325206277
+    second: interior_ground_13
+  - first:
+      213: -1807738506631054869
+    second: interior_ground_14
+  - first:
+      213: -812468963317150676
+    second: interior_ground_15
+  - first:
+      213: -4856417502838750720
+    second: interior_ground_16
+  - first:
+      213: 8056714837614325527
+    second: interior_ground_17
+  - first:
+      213: 3438215535717530678
+    second: interior_ground_18
+  - first:
+      213: 9110994895190701230
+    second: interior_ground_19
+  - first:
+      213: 499719662147404708
+    second: interior_ground_20
+  - first:
+      213: 1605882139303025371
+    second: interior_ground_21
+  - first:
+      213: 1925631391293773858
+    second: interior_ground_22
+  - first:
+      213: 6248694065731771231
+    second: interior_ground_23
+  - first:
+      213: -1062699369288149600
+    second: interior_ground_24
+  - first:
+      213: 1365518068019408660
+    second: interior_ground_25
+  - first:
+      213: -34940360460467480
+    second: interior_ground_26
+  - first:
+      213: 4452614271360582243
+    second: interior_ground_27
+  - first:
+      213: -3429793359225295268
+    second: interior_ground_28
+  - first:
+      213: 3798658750444730315
+    second: interior_ground_29
+  - first:
+      213: -8899648856714550399
+    second: interior_ground_30
+  - first:
+      213: -591873087775283260
+    second: interior_ground_31
+  - first:
+      213: 1127326176015521937
+    second: interior_ground_32
+  - first:
+      213: 4109621175183996687
+    second: interior_ground_33
+  - first:
+      213: -7484124909767732618
+    second: interior_ground_34
+  - first:
+      213: 3636299807596014400
+    second: interior_ground_35
+  - first:
+      213: -1313646954196645990
+    second: interior_ground_36
+  - first:
+      213: 2454123478444276293
+    second: interior_ground_37
+  - first:
+      213: -1003018591213910390
+    second: interior_ground_38
+  - first:
+      213: 1211858161618458177
+    second: interior_ground_39
+  - first:
+      213: -1951467214241956966
+    second: interior_ground_40
+  - first:
+      213: 2966480941806568441
+    second: interior_ground_41
+  - first:
+      213: -1050941608213810043
+    second: interior_ground_42
+  - first:
+      213: -1810063045171882177
+    second: interior_ground_43
+  - first:
+      213: 5900459850907607228
+    second: interior_ground_44
+  - first:
+      213: 4602173541337326207
+    second: interior_ground_45
+  - first:
+      213: 9196070721654820018
+    second: interior_ground_46
+  - first:
+      213: 4032458580281221820
+    second: interior_ground_47
+  - first:
+      213: -1802211854082511856
+    second: interior_ground_48
+  - first:
+      213: -7524397856653361008
+    second: interior_ground_49
+  - first:
+      213: 2860835478353731413
+    second: interior_ground_50
+  - first:
+      213: -4205347956881585196
+    second: interior_ground_51
+  - first:
+      213: -6435511270092246233
+    second: interior_ground_52
+  - first:
+      213: 8604752152289366049
+    second: interior_ground_53
+  - first:
+      213: -5803521338725735069
+    second: interior_ground_54
+  - first:
+      213: -8719769462238690999
+    second: interior_ground_55
+  - first:
+      213: -2148598331849510542
+    second: interior_ground_56
+  - first:
+      213: 7244873424981366831
+    second: interior_ground_57
+  - first:
+      213: -4001203991857597711
+    second: interior_ground_58
+  - first:
+      213: 113857633593638023
+    second: interior_ground_59
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: interior_ground_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595c6d448b7362fb0800000000000000
+      internalID: -4672986298781874795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518d52254cdf70a70800000000000000
+      internalID: 8793275817097811989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1619252573bcdc0800000000000000
+      internalID: -3617737048949956142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74705066b6b27b730800000000000000
+      internalID: 4014725333097187143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4866f967343a2f40800000000000000
+      internalID: 5704429290623756366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6365cfd3c2f183740800000000000000
+      internalID: 5131886050267649590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_6
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0744cbf6a16eea4c0800000000000000
+      internalID: -4274225995109874576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ca5c57c3886c140800000000000000
+      internalID: 4739625451109329960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_8
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1286d8816a16900800000000000000
+      internalID: 676004043464122861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8941e54988959930800000000000000
+      internalID: 4149390347042113930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 126
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c2ad98e67279ea0800000000000000
+      internalID: -5866176633914119092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 126
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae79aee69cf2a5d0800000000000000
+      internalID: -3052599872224395604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 126
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb130cb790d2c47e0800000000000000
+      internalID: -1779998233964039749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 126
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f76c11f1cdb6f70800000000000000
+      internalID: 9181674291325206277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 126
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9f571f76f99e6e0800000000000000
+      internalID: -1807738506631054869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 126
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c837258c789b4f0800000000000000
+      internalID: -812468963317150676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_16
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 126
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0028e46f20a8a9cb0800000000000000
+      internalID: -4856417502838750720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 126
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fee9065733fcf60800000000000000
+      internalID: 8056714837614325527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 126
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c3ca330def6bf20800000000000000
+      internalID: 3438215535717530678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 126
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea43d36c591c07e70800000000000000
+      internalID: 9110994895190701230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 94
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a30395926c5fe600800000000000000
+      internalID: 499719662147404708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 94
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda1d402c4d394610800000000000000
+      internalID: 1605882139303025371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 94
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22818664c8739ba10800000000000000
+      internalID: 1925631391293773858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 94
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b98025522d7b650800000000000000
+      internalID: 6248694065731771231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_24
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 94
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a55c86dd888041f0800000000000000
+      internalID: -1062699369288149600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 94
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41faca2b27b43f210800000000000000
+      internalID: 1365518068019408660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_26
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 94
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e20e626dedd38ff0800000000000000
+      internalID: -34940360460467480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_27
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 94
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362484eb61ddacd30800000000000000
+      internalID: 4452614271360582243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_28
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 94
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ee1629c1de660d0800000000000000
+      internalID: -3429793359225295268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 94
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7ff23e10c87b430800000000000000
+      internalID: 3798658750444730315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 62
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18361d564881e7480800000000000000
+      internalID: -8899648856714550399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 62
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c76a03009e39c7f0800000000000000
+      internalID: -591873087775283260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 62
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198976b2f2115af00800000000000000
+      internalID: 1127326176015521937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 62
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07f3446fae480930800000000000000
+      internalID: 4109621175183996687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_34
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 62
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67254a21c0c032890800000000000000
+      internalID: -7484124909767732618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 62
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04be498b86bb67230800000000000000
+      internalID: 3636299807596014400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_36
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 62
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97c5de1e0df4cde0800000000000000
+      internalID: -1313646954196645990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_37
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 62
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54afd971d4cce0220800000000000000
+      internalID: 2454123478444276293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_38
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 62
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86059fc7ef8412f0800000000000000
+      internalID: -1003018591213910390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_39
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 62
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1461d69c39261d010800000000000000
+      internalID: 1211858161618458177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 30
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b794078eefae4e0800000000000000
+      internalID: -1951467214241956966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 30
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3c85113be0b2920800000000000000
+      internalID: 2966480941806568441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_42
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 30
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584fcbaec2e4a61f0800000000000000
+      internalID: -1050941608213810043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_43
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 30
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37d773204d51e6e0800000000000000
+      internalID: -1810063045171882177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 30
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb06dc0f8f4a2e150800000000000000
+      internalID: 5900459850907607228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_45
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 30
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72ec16d3743edf30800000000000000
+      internalID: 4602173541337326207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 30
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc0b9539910f9f70800000000000000
+      internalID: 9196070721654820018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_ground_47
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 30
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb26321c6bb26f730800000000000000
+      internalID: 4032458580281221820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

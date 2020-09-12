@@ -28,6 +28,8 @@ public class EnemyController : MonoBehaviour
     public AIDestinationSetter destinationSetter;
     private AIPath pathfinding;
 
+    private PatrolController patrol;
+
     public int enemyType;
 
     AudioManager audioMgr;
@@ -44,11 +46,12 @@ public class EnemyController : MonoBehaviour
         playerMov = player.GetComponent<PlayerMovement>();
 
         destinationSetter = GetComponent<AIDestinationSetter>();
-        destinationSetter.target = player.transform;
 
         pathfinding = GetComponent<AIPath>();
 
         audioMgr = GameObject.Find("AudioManager").GetComponent<AudioManager>();
+
+        patrol = GetComponent<PatrolController>();
     }
 
     // Start is called before the first frame update
@@ -81,7 +84,6 @@ public class EnemyController : MonoBehaviour
                 }
                 else
                 {
-                    
                     ChasePlayer();
                     isPlayerOccluded = false;
                 }
@@ -101,6 +103,14 @@ public class EnemyController : MonoBehaviour
                 AttackPlayer();
             }
         }
+
+        // Patrol
+
+        if (!hasSeenPlayer)
+        {
+            if (patrol.noOfNodes > 0)
+                SeekNextNode();
+        }
     }
 
     // Update is called once per frame
@@ -119,6 +129,15 @@ public class EnemyController : MonoBehaviour
         }
     }
 
+    private void LookAtPath (Vector3 pathPosition)
+    {
+        Vector2 direction = pathPosition - this.transform.position;
+        if (direction != Vector2.zero)
+        {
+            los_rb.rotation = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
+        }
+    }
+
     private void ResetOrientation ()
     {
         // rb.MoveRotation(originalAngle);
@@ -128,6 +147,7 @@ public class EnemyController : MonoBehaviour
     {
         LookAtPlayer();
         pathfinding.canSearch = true;
+        destinationSetter.target = player.transform;
         hasSeenPlayer = true;
     }
 
@@ -138,6 +158,24 @@ public class EnemyController : MonoBehaviour
         rb.velocity = Vector3.zero;
         ResetOrientation();
     }
+    
+    private void SeekNextNode ()
+    {
+        Debug.Log(patrol.noOfNodes);
+        Transform nextNode = patrol.patrolNodes[patrol.currIndex].transform;
+        LookAtPath(nextNode.position);
+        pathfinding.canSearch = true;
+        destinationSetter.target = nextNode;
+        Debug.Log(destinationSetter.target.gameObject.name);
+        if (Vector3.Distance(gameObject.transform.position, nextNode.position) < 0.2f)
+        {
+            if (patrol.currIndex < (patrol.noOfNodes - 1))
+                patrol.currIndex++;
+            else
+                patrol.currIndex = 0;
+        }
+    }
+
 
     public void PlayerOnLOS ()
     {
