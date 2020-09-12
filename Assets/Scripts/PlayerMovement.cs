@@ -160,21 +160,24 @@ public class PlayerMovement : MonoBehaviour
     private void TakedownTip ()
     {
         List<Collider2D> lc = new List<Collider2D>();
+        bool enemyFound = false;
         if (col.OverlapCollider(cfTakedown, lc) > 0)
         {
+            Debug.Log(lc.Count);
             foreach (Collider2D spot in lc)
             {
                 if (spot != null && spot.CompareTag("takedown"))
                 {
-                    Debug.Log(spot.GetComponentInParent<EnemyController>().GetChaseStatus());
                     if (!spot.GetComponentInParent<EnemyController>().GetChaseStatus())
+                    {
                         ui_takedownTip.SetActive(true);
-                }
-                else
-                {
-                    ui_takedownTip.SetActive(false);
+                        enemyFound = true;
+                        break;
+                    }
                 }
             }
+            if (!enemyFound)
+                ui_takedownTip.SetActive(false);
         }
         else
         {

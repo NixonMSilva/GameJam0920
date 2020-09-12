@@ -8,6 +8,8 @@ public class PatrolController : MonoBehaviour
     public int currIndex = 0;
     public int noOfNodes;
 
+    public bool hasPatrolPath = false;
+
     private void Awake ()
     {
         noOfNodes = patrolNodes.Length;

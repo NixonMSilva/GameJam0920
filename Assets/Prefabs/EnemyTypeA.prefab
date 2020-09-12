@@ -246,7 +246,7 @@ GameObject:
   - component: {fileID: 971700718451561719}
   m_Layer: 12
   m_Name: TakedownSpot
-  m_TagString: Untagged
+  m_TagString: takedown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -608,3 +608,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  currIndex: 0
+  noOfNodes: 0
+  hasPatrolPath: 0

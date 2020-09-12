@@ -108,7 +108,7 @@ public class EnemyController : MonoBehaviour
 
         if (!hasSeenPlayer)
         {
-            if (patrol.noOfNodes > 0)
+            if (patrol.hasPatrolPath && patrol.noOfNodes > 0)
                 SeekNextNode();
         }
     }
