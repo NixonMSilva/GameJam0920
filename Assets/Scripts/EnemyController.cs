@@ -13,6 +13,8 @@ public class EnemyController : MonoBehaviour
     public GameObject player;
     public GameObject lineOfSight;
 
+    public GameObject gfx;
+
     private Rigidbody2D rb;
 
     private Quaternion originalAngle;
@@ -31,6 +33,10 @@ public class EnemyController : MonoBehaviour
     private PatrolController patrol;
 
     public int enemyType;
+
+    private float currY, earlyY;
+
+    private Animator anim;
 
     AudioManager audioMgr;
 
@@ -52,12 +58,14 @@ public class EnemyController : MonoBehaviour
         audioMgr = GameObject.Find("AudioManager").GetComponent<AudioManager>();
 
         patrol = GetComponent<PatrolController>();
+
+        anim = gfx.GetComponent<Animator>();
     }
 
     // Start is called before the first frame update
     private void Start()
     {
-        
+        earlyY = this.gameObject.transform.position.y;
     }
 
     private void FixedUpdate ()
@@ -132,7 +140,16 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        currY = this.gameObject.transform.position.y;
         los_rb.position = this.transform.position;
+        Debug.Log(-(currY - earlyY));
+        anim.SetFloat("Blend", -(currY - earlyY));
+        earlyY = currY;
+    }
+
+    private void LateUpdate ()
+    {
+        
     }
 
     private void LookAtPlayer ()
@@ -211,7 +228,10 @@ public class EnemyController : MonoBehaviour
         // Debug.Log("Takedown activated");
         // Type 1 enemy = Immortal enemies
         if (!hasSeenPlayer && enemyType != 1)
+        {
+            audioMgr.PlaySound("Alien Grunt");
             Destroy(this.gameObject);
+        }
     }
 
     public int GetEnemyType ()

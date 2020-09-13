@@ -45,20 +45,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - audioSource: {fileID: 0}
-    name: 
-    audio: {fileID: 0}
-    volume: 0
-    pitch: 0
+    name: Explosion
+    audio: {fileID: 8300000, guid: 0ec29f50b3e64c045bea00916a5ad338, type: 3}
+    volume: 0.6
+    pitch: 1
   - audioSource: {fileID: 0}
-    name: 
-    audio: {fileID: 0}
-    volume: 0
-    pitch: 0
+    name: Player Grunt
+    audio: {fileID: 8300000, guid: 5a286d042274ad645929fccd6b116151, type: 3}
+    volume: 0.5
+    pitch: 1
   - audioSource: {fileID: 0}
-    name: 
-    audio: {fileID: 0}
-    volume: 0
-    pitch: 0
+    name: Alien Grunt
+    audio: {fileID: 8300000, guid: f6346f06507aa7f41ac0cbbf17aa70b6, type: 3}
+    volume: 0.5
+    pitch: 1
   - audioSource: {fileID: 0}
     name: 
     audio: {fileID: 0}

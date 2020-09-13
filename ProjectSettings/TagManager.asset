@@ -6,6 +6,7 @@ TagManager:
   tags:
   - takedown
   - docs
+  - enemy
   layers:
   - Default
   - TransparentFX

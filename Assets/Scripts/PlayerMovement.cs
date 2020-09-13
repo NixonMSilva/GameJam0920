@@ -33,7 +33,11 @@ public class PlayerMovement : MonoBehaviour
 
     private MessageController messageController;
 
-    AudioManager audioMgr;
+    private float speed_x, speed_y;
+
+    private AudioManager audioMgr;
+
+    private Animator anim;
 
     private void Awake ()
     {
@@ -45,6 +49,8 @@ public class PlayerMovement : MonoBehaviour
         audioMgr = GameObject.Find("AudioManager").GetComponent<AudioManager>();
 
         ui_retryPanel.SetActive(false);
+
+        anim = GetComponent<Animator>();
     }
 
     // Start is called before the first frame update
@@ -62,6 +68,9 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     private void Update ()
     {
+
+        
+
         // Condition to avoid player health extrapolating the limits
         if (playerHealth > 100f)
             playerHealth = 100f;
@@ -70,7 +79,7 @@ public class PlayerMovement : MonoBehaviour
         if (playerHealth <= 0f)
             Die();
 
-        if (Input.GetKey(KeyCode.C))
+        if (Input.GetKey(KeyCode.LeftControl))
         {
             isSneaking = true;
             moveSpeed = 1.0f;
@@ -124,6 +133,14 @@ public class PlayerMovement : MonoBehaviour
         {
             noiseLevel = 0f;
         }
+
+        // Animator stuff
+        anim.SetFloat("speed", rb.velocity.sqrMagnitude);
+        anim.SetFloat("horizontal", rb.velocity.x);
+        anim.SetFloat("vertical", rb.velocity.y);
+        anim.SetBool("isSneaking", isSneaking);
+
+        Debug.Log("X: " + rb.velocity.x + "Y: " + rb.velocity.y);
 
         UpdateNoiseBar();
         UpdateHealthBar();
@@ -215,6 +232,7 @@ public class PlayerMovement : MonoBehaviour
     public void TakeDamage (float damage)
     {
         playerHealth -= damage;
+        audioMgr.PlaySound("Player Grunt");
     }
 
     public void Die ()

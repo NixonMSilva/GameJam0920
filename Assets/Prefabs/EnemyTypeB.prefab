@@ -286,6 +286,7 @@ GameObject:
   - component: {fileID: 163713625441849382}
   - component: {fileID: 163713625441849381}
   - component: {fileID: 163713625441849380}
+  - component: {fileID: 6454934037140917498}
   m_Layer: 0
   m_Name: EnemyTypeB
   m_TagString: Untagged
@@ -361,6 +362,7 @@ MonoBehaviour:
   attackRange: 0.44
   player: {fileID: 0}
   lineOfSight: {fileID: 163713625043593260}
+  gfx: {fileID: 0}
   opaqueObjects:
     serializedVersion: 2
     m_Bits: 256
@@ -444,6 +446,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   target: {fileID: 0}
+--- !u!95 &6454934037140917498
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163713625441849387}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 915e70674d5896c42a91838897c528a8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &163713625604708131
 GameObject:
   m_ObjectHideFlags: 0
